@@ -1,7 +1,7 @@
 const dotenv = require('dotenv')
 const express = require('express')
-const connectDB = require('./config/db')
-const app = require('./app')
+const connectDB = require('./src/config/db')
+const app = require('./src/app')
 const cors = require('cors')
 dotenv.config();
 connectDB();
